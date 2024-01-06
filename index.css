@@ -1,0 +1,283 @@
+#nava {
+  height: 40px;
+  width: 70px;
+  padding: 10px 10%;
+  background-color: aquamarine;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+#sliderimg {
+  position: relative;
+}
+.slidertext {
+  position: absolute;
+  text-align: center;
+  margin: 10px;
+  font-size: 100px;
+  color: blue;
+}
+.sliderbtn {
+  font-size: medium;
+  border: 0px solid black;
+  color: white;
+  background-color: rgb(40, 141, 40);
+  padding: 20px;
+}
+.sliderbtn:hover {
+  background-color: rgb(90, 205, 90);
+}
+.sliderend {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(11, 85, 11);
+}
+.loadbtn {
+  background-color: rgb(11, 85, 11);
+  color: white;
+  padding: 10px;
+  margin-bottom: 100px;
+  width: 150px;
+  margin-top: 50px;
+  border: 0px;
+  box-shadow: 10px 10px 15px gray;
+}
+.loadbtn:hover {
+  background-color: rgb(79, 236, 79);
+}
+.circle-img {
+  width: 100%;
+  background-color: white;
+}
+.circlebody {
+  display: flex;
+  justify-content: space-evenly;
+}
+#icon {
+  color: gray;
+}
+#icon:hover {
+  color: #7ed50e;
+}
+.circle {
+  width: 18%;
+  height: 200px;
+  margin: 10px;
+}
+.circle img {
+  margin-bottom: 10px;
+}
+.card {
+  overflow: hidden;
+}
+#box2 {
+  height: 275px;
+  width: 100%;
+
+  position: absolute;
+  z-index: 1;
+}
+.card:hover #box2 {
+  background-color: rgba(55, 55, 55, 0.6);
+  transition: 3s;
+}
+.card:hover #cardimg {
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+.circle p {
+  color: gray;
+}
+.center-body {
+  background-color: rgba(2, 115, 30, 0.9);
+  position: absolute;
+  width: 100%;
+  margin-top: -150px;
+  height: 150px;
+}
+
+#hoverimg:hover {
+  transform: scale(1.2);
+}
+
+.discover-btn {
+  background-color: darkgreen;
+  border: 0px;
+  color: white;
+}
+.backimg-card-1 {
+  height: 250px;
+  border: 1px solid gray;
+  border-radius: 70px;
+  width: 50%;
+}
+
+#backimg-card-2 {
+  height: 250px;
+  border: 1px solid gray;
+  border-radius: 70px;
+  width: 50%;
+}
+
+#backimg {
+  height: 100px;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#backh6 {
+  margin-top: 15%;
+  color: gray;
+  font-size: 15px;
+}
+.formcenter {
+  color: white;
+  padding: 100px;
+}
+#bgtext {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  height: 40px;
+  width: 260px;
+  margin-bottom: 20px;
+}
+#miniopt {
+  background-color: transparent;
+  color: white;
+  width: 200px;
+  margin: 20px 20px;
+}
+::placeholder {
+  color: white;
+}
+#bgopt {
+  width: 500px;
+  background-color: transparent;
+  color: white;
+  margin: 10px;
+}
+.blockdiv {
+  display: flex;
+}
+
+option {
+  background-color: black;
+  color: white;
+}
+#bgbtn {
+  background-color: white;
+  border: 0px;
+  width: 500px;
+  height: 40px;
+}
+#img-sec{
+  margin: 0px 20px;
+}
+
+/* ===================================responsive============================================== */
+@media only screen and (min-width: 600px) {
+  .halfimage2 {
+    display: flex;
+    padding: 20px;
+  }
+  #backimg-card-2 {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 400) {
+  .backimg-card-1 {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #bgbtn {
+    width: auto;
+  }
+  .formcenter {
+    padding: 10px;
+  }
+  #bgopt {
+    width: auto;
+    margin: 10px 0px;
+  }
+  #miniopt {
+    width: auto;
+    margin: 20px 0px;
+  }
+  .blockdiv {
+    display: block;
+  }
+  #backimg-card-2 {
+    display: none;
+  }
+  .backimg-card-1 {
+    height: 100px;
+    width: 400px;
+  }
+
+  #backimg {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+  }
+  #backh6 {
+    font-size: 7px;
+    margin-top: 30px;
+  }
+  .discover-btn {
+    font-size: 7px;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+  }
+  .center-body img {
+    width: 20px;
+    height: 20px;
+  }
+  .center-body h6 {
+    font-size: x-small;
+  }
+  .center-body {
+    margin-top: 0px;
+    position: relative;
+  }
+  .center-body-h3 {
+    font-size: x-small;
+  }
+  #sliderh6 {
+    font-size: small;
+  }
+  #sliderbt {
+    font-size: 8px;
+  }
+  .card-text {
+    display: none;
+  }
+  .cardwrapper {
+    flex-wrap: wrap;
+  }
+  .sliderend {
+    display: block;
+  }
+  .circlebody {
+    flex-wrap: wrap;
+    display: block;
+  }
+  .circle {
+    margin: 20px 0px;
+    text-align: center;
+    justify-content: space-around;
+    width: fit-content;
+  }
+  .circle h2 {
+    font-size: medium;
+  }
+  .circle p {
+    font-size: x-small;
+  }
+}

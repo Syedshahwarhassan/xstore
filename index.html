@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xstore</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed z-1 w-100" style="margin-bottom: 20px;">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-4" href="#"><img
+          src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/07/Logo-real-estate-1.png"
+          alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Luxery Villa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Properties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse mx-4" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-4" id="navbar">
+        <a class="nav-link " aria-current="page" href="#">Login/Sigup</a>
+        <a class="nav-link" href="#"><i class="fa-solid fa-arrow-rotate-left fa-xl" style="color: #12872f;"></i></a>
+        <a class="nav-link" href="#"><i class="fa-regular fa-heart fa-xl" style="color: #12872f;"></i></a>
+        <a class="nav-link" id="nava"><i class="fa-solid fa-bucket fa-xl" style="color: #ffffff;"></i></a>
+      </div>
+    </div>
+
+    </div>
+  </nav>
+  <!-- ==================================================slider======================================================= -->
+  <div class="box" style="height: 70px;width: 100%;background-color: #12872f;"></div>
+  <div id="carouselExampleCaptions" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://homeadore.com/wp-content/uploads/2018/12/003-modena-55-metricon.jpg" class="d-block w-100 "
+          height="600px" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10%;font-size: 30px;">
+          <h2>First slide label</h2>
+          <p>Some representative placeholder content for the first slide.</p>
+          <button class="sliderbtn">Start Exploring</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://en.idei.club/uploads/posts/2023-03/1679918811_en-idei-club-p-plan-design-villa-modern-dizain-69.jpg"
+          height="600px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block " style="margin-bottom: 10%;font-size: 30px;">
+          <h2>Second slide label</h2>
+          <p>Some representative placeholder content for the second slide.</p>
+          <button class="sliderbtn">Start Exploring</button>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ============================slider-end=================================== -->
+  <div class="sliderend" style="display: flex;justify-content: space-evenly;">
+    <h6 id="sliderh6" style="color: white;padding: 40px;">Don’t See The City You Were Looking For? Help Us Out By
+      Suggesting!</h6>
+    <button id="sliderbt"
+      style="height: 50px;margin-top: 30px;color: white;border: 2px solid white; background-color: rgb(11, 85, 11);border-radius: 10px;"><i
+        class="fa-regular fa-circle-question" style="color: #fcfcfc;"></i> Suggest City</button>
+  </div>
+  <!-- /.sliderend -->
+  <!-- =================================================Card-wrapper============================================== -->
+
+  <div class="card-wrapper" style="background-color: rgb(230, 228, 228);width: 100%;">
+    <center style="padding: 40px;">
+      <h1>Searching For The Best Places?</h1>
+      <p style="color: gray;">Handpicked properties by our Agents</p>
+    </center>
+    <div class="cardwrapper" style="display: flex;justify-content: space-evenly;">
+      <div class="card my-4" style="width: 18rem;">
+        <img src="https://kbmarketingconsultancy.com/wp-content/uploads/2021/11/Rental-House-in-Karaikudi-2.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Historical Grand Family Villa Rio</h5>
+          <h5>⭐⭐⭐⭐⭐</h5>
+          <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 18rem;">
+        <img src="https://tvoystroyka.ru/wp-content/uploads/2021/10/028d84953ae2cd27db2527b1af10f638.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 18rem;">
+        <img src="https://avatars.mds.yandex.net/i?id=363d14a8aef8f815bb8323bc2c900857-5277319-images-thumbs&n=13"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+
+
+    </div>
+    <!-- /.cardwrpper -->
+    <center><button class="loadbtn">Load More</button></center>
+  </div>
+  <!-- /.card-wrapper -->
+  <!-- ==================================================================================================================================== -->
+  <div class="circle-img">
+    <h1 style="text-align: center;margin-top: 60px;margin-bottom: 30px;">Eye Catching XStore Real Estate Demo</h1>
+    <div class="circlebody">
+
+      <div class="circle" style="text-align: center;padding: 20px;">
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/05/Point.png"
+          alt="">
+        <h5>Develop Objective</h5>
+        <p>Vestibulum lacinia arcu nulla. Class aptent taciti sociosqu litr torquent per conubia</p>
+      </div>
+      <div class="circle" style="text-align: center;padding: 20px;">
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/05/Point.png"
+          alt="">
+        <h5>Develop Objective</h5>
+        <p>Vestibulum lacinia arcu nulla. Class aptent taciti sociosqu litr torquent per conubia</p>
+      </div>
+
+      <div class="circle" style="text-align: center;padding: 20px;">
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/05/Point.png"
+          alt="">
+        <h5>Develop Objective</h5>
+        <p>Vestibulum lacinia arcu nulla. Class aptent taciti sociosqu litr torquent per conubia</p>
+      </div>
+      <div class="circle" style="text-align: center;padding: 20px;">
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/05/Point.png"
+          alt="">
+        <h5>Develop Objective</h5>
+        <p>Vestibulum lacinia arcu nulla. Class aptent taciti sociosqu litr torquent per conubia</p>
+      </div>
+
+    </div>
+    <!-- /.circlebody -->
+  </div>
+  <!-- /.circle-img -->
+  <!-- =====================================================center-img========================================================== -->
+  <div class="center-img" style="width: 100%;margin-top: 50px;">
+    <img
+      src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/06/Image-1-1536x696.jpg"
+      class="img-fluid" width="100%">
+    <div class="center-body d-flex text-white justify-content-evenly p-5">
+      <h3 class="center-body-h3">Gorgeous Home For Sale In Greenville</h3>
+      <div class="center-body-2 d-flex text-white">
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/06/Photo.png"
+          width="50px" height="50px">&emsp;
+        <h6>Lorem ipsum <br> dolor sit.</h6>
+
+      </div>
+      <!-- /.center-body-2 -->
+      <button class="discover-btn"><i class="fa-solid fa-house"></i> Discover more</button>
+    </div>
+    <!-- /.center-body -->
+  </div>
+  <!-- .center-img -->
+
+  <!-- ========================================================================================================================================== -->
+  <div class="card-wrapper" style="background-color: rgb(230, 228, 228);width: 100%;">
+    <center style="padding: 40px;">
+      <h1>Find Top Rated Properties</h1>
+      <p style="color: gray;">Handpicked properties by our Agents</p>
+    </center>
+    <div class="cardwrapper" style="display: flex;justify-content: space-evenly;">
+      <div class="card my-4" style="width: 18rem;">
+        <img src="https://kbmarketingconsultancy.com/wp-content/uploads/2021/11/Rental-House-in-Karaikudi-2.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Historical Grand Family Villa Rio</h5>
+          <h5>⭐⭐⭐⭐⭐</h5>
+          <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 18rem;">
+        <img src="https://tvoystroyka.ru/wp-content/uploads/2021/10/028d84953ae2cd27db2527b1af10f638.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 18rem;overflow: hidden;">
+        <img src="https://avatars.mds.yandex.net/i?id=363d14a8aef8f815bb8323bc2c900857-5277319-images-thumbs&n=13"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- end -->
+
+
+    </div>
+    <!-- /.cardwrpper -->
+    <center><button class="loadbtn">Load More</button></center>
+  </div>
+  <!-- /.card-wrapper -->
+  <!-- ==================================================================================================================================== -->
+  <div class="halfimage">
+    <center>
+      <h1 style="padding: 20px;">Special Deal On Properties</h1>
+      <p style="color: gray;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam similique eaque nemo
+        asperiores amet sunt.</p>
+    </center>
+    <div class="halfimage2 ">
+      <div class="half-image" style="padding: 20px;flex: 1;">
+        <span style="background-color: green;padding: 5px;border-radius: 10px;color: white;">30%</span>
+        <h5>Gorgeous Historic House For Sale</h5>
+        <br>
+        <span style="text-decoration: line-through;">$6550</span>&nbsp;<span style="color: gray;">$5500</span><br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus officia, illum a adipisci consequuntur
+          labore maxime in deleniti. Dicta doloremque temporibus minima quo vel facere deleniti laborum optio doloribus
+          ab.</p>
+        <button style="background-color: #12872f;border: 0px;color: white;padding: 5px;">Order Now</button>
+
+      </div>
+      <div class="half-image" style="flex: 1;overflow: hidden;border-radius: 40px;padding: 20px;">
+        <img id="hoverimg"
+          src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/06/Image-2.jpg"
+          width="100%" height="100%">
+      </div>
+    </div>
+    <!-- /.halfimage2 -->
+  </div>
+  <!-- /.halfimage -->
+  <!-- ====================================================================================================================================================== -->
+  <div class="card-wrapper" style="background-color: rgb(230, 228, 228);width: 100%;">
+    <center style="padding: 40px;">
+      <h1>Agents Make The Difference</h1>
+
+    </center>
+    <div class="cardwrapper" style="display: flex;justify-content: space-evenly;">
+      <div class="card my-4" style="width: 20rem;">
+        <div id="box2"></div>
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/06/Photo.jpg"
+          height="250px" id="cardimg" class="card-img-top position-relative " alt="...">
+        <div class="card-body my-4">
+          <h5 class="card-title text-center">Trevor Walsh</h5>
+          <h6 style="color: darkgreen;text-align: center;">Commercial Broker</h6>
+          <h6 style="text-align: center;"><i class="fa-brands fa-facebook" id="icon"></i>&emsp;<i
+              class="fa-brands fa-twitter" id="icon"></i>
+            &emsp;<i class="fa-brands fa-instagram" id="icon"></i>&emsp;<i class="fa-brands fa-skype" id="icon"></i>
+          </h6>
+
+          <p class=" card-text " style="color: gray;text-align: center;">Some quick example text to build on the card
+            title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 20rem;">
+        <div id="box2"></div>
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/06/Photo-1.jpg"
+          height="250px" id="cardimg" class="card-img-top position-relative " alt="...">
+        <div class="card-body my-4">
+          <h5 class="card-title text-center">Trevor Walsh</h5>
+          <h6 style="color: darkgreen;text-align: center;">Commercial Broker</h6>
+          <h6 style="text-align: center;"><i class="fa-brands fa-facebook" id="icon"></i>&emsp;<i
+              class="fa-brands fa-twitter" id="icon"></i>
+            &emsp;<i class="fa-brands fa-instagram" id="icon"></i>&emsp;<i class="fa-brands fa-skype" id="icon"></i>
+          </h6>
+
+          <p class=" card-text " style="color: gray;text-align: center;">Some quick example text to build on the card
+            title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+      <!-- end -->
+
+      <div class="card my-4" style="width: 20rem;">
+        <div id="box2"></div>
+        <img src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/06/Photo-2.jpg"
+          height="250px" id="cardimg" class="card-img-top position-relative " alt="...">
+        <div class="card-body my-4">
+          <h5 class="card-title text-center">Trevor Walsh</h5>
+          <h6 style="color: darkgreen;text-align: center;">Commercial Broker</h6>
+          <h6 style="text-align: center;"><i class="fa-brands fa-facebook" id="icon"></i>&emsp;<i
+              class="fa-brands fa-twitter" id="icon"></i>
+            &emsp;<i class="fa-brands fa-instagram" id="icon"></i>&emsp;<i class="fa-brands fa-skype" id="icon"></i>
+          </h6>
+
+          <p class=" card-text " style="color: gray;text-align: center;">Some quick example text to build on the card
+            title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+    <!-- /.cardwrpper -->
+
+  </div>
+  <!-- /.card-wrapper -->
+  <!-- ================================================================================================================================================ -->
+  <div class="back-image"
+    style="background-image: url(https://i.pinimg.com/originals/0d/80/7e/0d807e75d1c24d84e8da0ec88263b8f2.jpg);">
+    <div class="backimage p-5" style="background-color: rgba(0, 0, 0, 0.4);">
+      <center>
+        <h2 style="color: black;">Client’s Testimonials</h2>
+        <p style="color: white;">Lorem ipsum dolor sit amet, conectur adipscing elitsed do eiusmod</p>
+      </center>
+      <div class="backimg-card  d-flex ">
+        <div class="backimg-card-1 bg-white d-flex mx-3">
+          <img id="backimg"
+            src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/05/Avatar.jpg">
+          <h6 id="backh6">Lorem ipsum quasi mollitia, pariatur suscipit nisi nesciunt <span
+              style="color: black;">Shahwar Hassan</span> minus, fuga nobis eum corporis quia!</h6>
+        </div>
+        <div class="backimg-card-2 bg-white " id="backimg-card-2">
+          <img
+            src="https://xstore.b-cdn.net/elementor/demos/real-estate/wp-content/uploads/sites/65/2021/05/Avatar-1.jpg"
+            id="backimg">
+          <h6 id="backh6">Lorem ipsum dolor sit amet consecteturr suscipit nisi nesciunt <span
+              style="color: black;">Shahwar Hassan</span> minus, fuga nobis eum corporis quia!</h6>
+        </div>
+      </div>
+      <!-- /.backimg-card -->
+    </div>
+    <!-- /.backimage -->
+  </div>
+  <!-- /.back-image -->
+  <!-- =====================================================================Form ================================================================= -->
+  <div class="form-center"
+    style="background-image: url(https://homeadore.com/wp-content/uploads/2016/11/014-house-pestovo-alexandra-fedorova.jpg);">
+    <div class="formcenter" style="background-color: rgba(10, 100, 58, 0.7);">
+      <center style="width: 100%;">
+        <h1>Requests Your Property Valuation</h1>
+        <h6>Personal Information :</h6>
+        <!-- <select name="">
+        <option value="pakistan" id="bgopt">Select I Am ........</option>
+        <option value="Buyer">Buyer</option>
+        <option value="">Guest</option>
+      </select><br> -->
+        <select class="form-select" id="bgopt">
+          <option selected>Select I Am ---------------</option>
+          <option value="1">Buyer</option>
+          <option value="2">Guest</option>
+
+        </select><br>
+        <input type="text" name="name" id="bgtext" placeholder="Enter Your Name">
+        <input type="email" name="email" id="bgtext" placeholder="Enter Your Email"><br>
+        <h6>Property Information :</h6>
+        <select name="" class="form-select" id="bgopt">
+          <option value="pakistan" class="bgopt">Select Type .........</option>
+          <option value="Buyer">Purchase</option>
+          <option value="">Rent</option>
+        </select><br>
+        <div class="blockdiv ">
+
+          <div class="blockdiv1"><select name="" class="form-select" id="miniopt">
+              <option value="pakistan">Select City</option>
+              <option value="Buyer">London</option>
+              <option value="">Pairs</option>
+            </select>
+            <select name="" class="form-select" id="miniopt">
+              <option value="pakistan">Your Budget</option>
+              <option value="Buyer">>10000</option>
+              <option value="">
+                <10000< /option>
+            </select><br>
+          </div>
+          <div class="blockdiv2">
+            <select name="" class="form-select" id="miniopt">
+              <option value="pakistan">Number of Beds</option>
+              <option value="Buyer">1</option>
+              <option value="">2</option>
+              <option value="Buyer">3</option>
+              <option value="">4</option>
+            </select>
+            <select name="" class="form-select" id="miniopt">
+              <option value="pakistan">Minimum Size sq ft</option>
+              <option value="Buyer">>10000</option>
+              <option value="">
+                <10000< /option>
+            </select><br>
+          </div>
+
+        </div>
+        <!-- /.blockdiv -->
+        <button id="bgbtn">Submit Inquiry</button>
+      </center>
+    </div>
+    <!-- /.formcenter -->
+  </div>
+  <!-- /.form-center -->
+  <!-- =============================================================================================================================================== -->
+  <div class="card-wrapper" style="background-color: rgb(230, 228, 228);width: 100%;">
+    <center style="padding: 40px;">
+      <h1>Our Blogs</h1>
+
+    </center>
+    <div class="cardwrapper" style="display: flex;justify-content: space-evenly;">
+      <div class="card my-4" style="width: 20rem;">
+        <div id="box2"></div>
+        <img
+          src="https://www.freshpalace.com/wp-content/uploads/2014/03/Dusk-Pool-Lighting-Modern-Home-Golden-Beach-Florida.jpg"
+          height="250px" id="cardimg" class="card-img-top position-relative " alt="...">
+        <div class="card-body my-4">
+          <h5 class="card-title text-center">Learn The Truth Real Estate</h5>
+          <h6 style="text-align: center;color: #00fa11;"><i class="fa-regular fa-calendar-days"
+              style="color: #00fa11;"></i>&emsp;Jan,6,2024&ensp;<i class="fa-regular fa-message"
+              style="color: #00f702;"></i>
+            0</h6>
+          <p class=" card-text " style="color: gray;text-align: center;">Some quick example text to build on the card
+            title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 20rem;">
+        <div id="box2"></div>
+        <img
+          src="https://www.freshpalace.com/wp-content/uploads/2014/03/Dusk-Pool-Lighting-Modern-Home-Golden-Beach-Florida.jpg"
+          height="250px" id="cardimg" class="card-img-top position-relative " alt="...">
+        <div class="card-body my-4">
+          <h5 class="card-title text-center">Learn The Truth Real Estate</h5>
+          <h6 style="text-align: center;color: #00fa11;"><i class="fa-regular fa-calendar-days"
+              style="color: #00fa11;"></i>&emsp;Jan,6,2024&ensp;<i class="fa-regular fa-message"
+              style="color: #00f702;"></i>
+            0</h6>
+          <p class=" card-text " style="color: gray;text-align: center;">Some quick example text to build on the card
+            title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+      <!-- end -->
+      <div class="card my-4" style="width: 20rem;">
+        <div id="box2"></div>
+        <img
+          src="https://www.freshpalace.com/wp-content/uploads/2014/03/Dusk-Pool-Lighting-Modern-Home-Golden-Beach-Florida.jpg"
+          height="250px" id="cardimg" class="card-img-top position-relative " alt="...">
+        <div class="card-body my-4">
+          <h5 class="card-title text-center">Learn The Truth Real Estate</h5>
+          <h6 style="text-align: center;color: #00fa11;"><i class="fa-regular fa-calendar-days"
+              style="color: #00fa11;"></i>&emsp;Jan,6,2024&ensp;<i class="fa-regular fa-message"
+              style="color: #00f702;"></i>
+            0</h6>
+          <p class=" card-text " style="color: gray;text-align: center;">Some quick example text to build on the card
+            title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+    <!-- /.cardwrpper -->
+    <div class="imgsec" style="width: 100%;flex-wrap: wrap;text-align: center;">
+      <img src="./image/1.png" id="img-sec">
+      <img src="./image/2.png" id="img-sec">
+      <img src="./image/3.png" id="img-sec"><img src="./image/6.png" id="img-sec">
+      <img src="./image/4.png" id="img-sec">
+      <img src="./image/5.png" id="img-sec">
+
+    </div>
+    <!-- /.imgsec -->
+  </div>
+  <!-- /.card-wrapper -->
+  <!-- ========================================== Footer ======================================================================== -->
+</body>
+
+</html>
