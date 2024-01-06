@@ -179,7 +179,25 @@ option {
 #img-sec{
   margin: 0px 20px;
 }
-
+.text{
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+}
+.text1{
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  border: 1px solid white;
+  background-color: black;
+  height: 100px;
+  
+  flex: 1;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+padding-top: 30px;
+}
 /* ===================================responsive============================================== */
 @media only screen and (min-width: 600px) {
   .halfimage2 {
@@ -196,6 +214,9 @@ option {
   }
 }
 @media only screen and (max-width: 600px) {
+  .text1{
+    font-size: 7px;
+  }
   .blockdiv{
     width: fit-content;
   }
