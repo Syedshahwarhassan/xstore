@@ -163,6 +163,7 @@
 }
 .blockdiv {
   display: flex;
+  width: 500px;
 }
 
 option {
@@ -195,6 +196,9 @@ option {
   }
 }
 @media only screen and (max-width: 600px) {
+  .blockdiv{
+    width: fit-content;
+  }
   #bgbtn {
     width: auto;
   }
