@@ -1,0 +1,1 @@
+alert("Thiis website is Fully Responsive For all Devices")
